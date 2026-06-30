@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
 
-/* ============================
-   HR-RN CONSULTING BRAND COLORS
-   ============================ */
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Resume Writing | HR-RN Consulting</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
 
 body{
     background-color:#FFFFFF;
@@ -20,177 +26,83 @@ body{
 
 .navbar-brand{
     color:white !important;
-    font-weight:bold;
     font-size:28px;
+    font-weight:bold;
 }
 
 .nav-link{
     color:white !important;
-    font-size:17px;
 }
 
 .nav-link:hover{
     color:#F4C542 !important;
 }
 
-/* Hero Banner */
+/* Hero */
 
 .hero{
-
     background-color:#7A9E7E;
-
     color:white;
-
-    padding:70px 20px;
-
+    padding:80px 20px;
     text-align:center;
-
 }
 
-/* Section Titles */
+/* Content */
 
 .section-title{
-
     color:#7A9E7E;
-
     font-weight:bold;
-
+    margin-top:40px;
 }
 
-/* Cards */
-
-.card{
-
-    border:none;
-
+.content-box{
+    background:white;
+    padding:40px;
     border-radius:15px;
-
-    box-shadow:0 4px 15px rgba(0,0,0,.10);
-
-    transition:.3s;
-
-}
-
-.card:hover{
-
-    transform:translateY(-8px);
-
-    box-shadow:0 10px 25px rgba(0,0,0,.18);
-
+    box-shadow:0px 5px 20px rgba(0,0,0,.10);
+    margin-top:40px;
 }
 
 /* Buttons */
 
 .btn-primary{
-
-    background-color:#F4C542;
-
-    color:#333333;
-
-    border:none;
-
+    background-color:#F4C542 !important;
+    color:#333333 !important;
+    border:none !important;
     font-weight:bold;
-
 }
 
 .btn-primary:hover{
-
-    background-color:#D8A91E;
-
-    color:black;
-
+    background-color:#D8A91E !important;
 }
 
 .btn-secondary{
-
-    background-color:#7A9E7E;
-
-    color:white;
-
+    background-color:#7A9E7E !important;
+    color:white !important;
     border:none;
-
 }
 
 .btn-secondary:hover{
-
-    background-color:#66876A;
-
-}
-
-/* Form Controls */
-
-.form-control{
-
-    border-radius:10px;
-
-}
-
-.form-select{
-
-    border-radius:10px;
-
-}
-
-/* Accordion */
-
-.accordion-button:not(.collapsed){
-
-    background:#E8F0E8;
-
-    color:#333333;
-
+    background-color:#66876A !important;
 }
 
 /* Footer */
 
 .footer{
-
     background-color:#7A9E7E;
-
     color:white;
-
-    padding:25px;
-
     text-align:center;
-
-    margin-top:50px;
-
+    padding:25px;
+    margin-top:60px;
 }
 
-</style>
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Resume Writing Services | HR-RN Consulting</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-
-body {
-    background-color: #f8f9fa;
+.footer a{
+    color:#F4C542;
+    text-decoration:none;
 }
 
-.hero {
-    background-color: #0d6efd;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.section-title {
-    color: #0d6efd;
-    margin-top: 30px;
-}
-
-.footer {
-    background-color: #212529;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
+.footer a:hover{
+    color:white;
 }
 
 </style>
@@ -199,7 +111,7 @@ body {
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
 
 <div class="container">
 
@@ -207,7 +119,10 @@ body {
 HR-RN Consulting
 </a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
 
 <span class="navbar-toggler-icon"></span>
 
@@ -234,13 +149,16 @@ HR-RN Consulting
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="terms-and-conditions.html">Terms & Conditions</a>
-</li>
-<li class="nav-item">
 <a class="nav-link" href="faqs.html">FAQs</a>
 </li>
-</ul>
 
+<li class="nav-item">
+<a class="nav-link" href="terms-and-conditions.html">
+Terms
+</a>
+</li>
+
+</ul>
 
 </div>
 
@@ -250,70 +168,127 @@ HR-RN Consulting
 
 <div class="hero">
 
-<h1>Resume Writing & Personal Branding Services</h1>
+<h1>Resume Writing Services</h1>
 
 <p class="lead">
-Helping Professionals Stand Out and Secure More Interviews
+Professional Resumes That Get Interviews
 </p>
 
 </div>
 
-<div class="container mt-5">
+<div class="container">
 
-<h2 class="section-title">Overview</h2>
+<div class="content-box">
+
+<h2 class="section-title">
+Professional Resume Writing
+</h2>
 
 <p>
-A well-written resume can be the difference between getting overlooked and getting called for an interview. HR-RN Consulting provides professional resume writing services designed to highlight your accomplishments, showcase your strengths, and position you as a top candidate.
+
+Your resume is often your first opportunity to make a lasting impression with an employer. At HR-RN Consulting, we create customized resumes that highlight your accomplishments, demonstrate your value, and position you as a competitive candidate in today's job market.
+
 </p>
 
-<h2 class="section-title">Services Offered</h2>
+<h2 class="section-title">
+Our Resume Services Include
+</h2>
 
 <ul>
+
 <li>Professional Resume Writing</li>
-<li>Resume Reviews and Critiques</li>
+
+<li>Resume Reviews & Critiques</li>
+
 <li>Executive Resume Development</li>
-<li>Federal Resume Assistance</li>
-<li>Career Change Resume Development</li>
-<li>Cover Letter Writing</li>
+
+<li>Federal Resume Writing</li>
+
+<li>ATS Optimization</li>
+
+<li>Career Change Resumes</li>
+
+<li>Military Transition Resumes</li>
+
 <li>LinkedIn Profile Optimization</li>
-<li>Applicant Tracking System (ATS) Optimization</li>
-<li>Personal Branding Strategies</li>
-<li>Interview Preparation Support</li>
+
+<li>Cover Letter Writing</li>
+
+<li>Personal Branding</li>
+
 </ul>
 
-<h2 class="section-title">Who We Help</h2>
-
-<p>
-We help students, recent graduates, professionals, managers, executives, career changers, military veterans, and job seekers at every stage of their career journey.
-</p>
-
-<h2 class="section-title">Benefits of Our Resume Services</h2>
+<h2 class="section-title">
+Who We Help
+</h2>
 
 <ul>
-<li>Create a professional first impression</li>
-<li>Increase interview opportunities</li>
-<li>Improve ATS compatibility</li>
-<li>Highlight accomplishments and measurable results</li>
-<li>Strengthen your personal brand</li>
-<li>Build confidence during your job search</li>
-<li>Position yourself for promotions and career advancement</li>
+
+<li>College Students</li>
+
+<li>Recent Graduates</li>
+
+<li>Working Professionals</li>
+
+<li>Managers</li>
+
+<li>Executives</li>
+
+<li>Career Changers</li>
+
+<li>Federal Employees</li>
+
+<li>Military Veterans</li>
+
 </ul>
 
-<h2 class="section-title">Why Choose HR-RN Consulting?</h2>
+<h2 class="section-title">
+Benefits
+</h2>
+
+<ul>
+
+<li>Stand out from other applicants</li>
+
+<li>Increase interview opportunities</li>
+
+<li>Improve Applicant Tracking System (ATS) scores</li>
+
+<li>Showcase measurable accomplishments</li>
+
+<li>Strengthen your personal brand</li>
+
+<li>Gain confidence during your job search</li>
+
+</ul>
+
+<h2 class="section-title">
+Why Choose HR-RN Consulting?
+</h2>
 
 <p>
-With experience in human resources, talent acquisition, career coaching, workforce development, leadership training, and professional development, we understand what hiring managers and recruiters look for when evaluating candidates. Our goal is to help you stand out and compete effectively in today's job market.
+
+With experience in Human Resources, Talent Acquisition, Career Development, Leadership, Business Continuity, and Executive Coaching, we understand what hiring managers and recruiters want to see. Every resume is customized to reflect your unique experience, strengths, and career goals.
+
 </p>
 
 <div class="text-center mt-5">
 
-<a href="contact.html" class="btn btn-primary btn-lg">
-Schedule a Consultation
+<a href="discovery-call.html"
+class="btn btn-primary btn-lg">
+
+Book a Discovery Call
+
 </a>
 
-<a href="index.html" class="btn btn-secondary btn-lg">
-Return Home
+<a href="services.html"
+class="btn btn-secondary btn-lg">
+
+View All Services
+
 </a>
+
+</div>
 
 </div>
 
@@ -322,7 +297,29 @@ Return Home
 <div class="footer">
 
 <p>
-© 2026 HR-RN Consulting | Empowering Careers. Building Futures.
+
+© 2026 HR-RN Consulting | Empowering Careers. Strengthening Organizations.
+
+</p>
+
+<p>
+
+<a href="terms-and-conditions.html">
+Terms & Conditions
+</a>
+
+|
+
+<a href="faqs.html">
+FAQs
+</a>
+
+|
+
+<a href="contact.html">
+Contact
+</a>
+
 </p>
 
 </div>
